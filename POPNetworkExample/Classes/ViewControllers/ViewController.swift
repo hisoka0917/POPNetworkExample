@@ -19,7 +19,9 @@ class ViewController: UIViewController {
                 if let error = model.error {
                     if !error {
                         if let articles = model.results {
-                            print(articles)
+                            for article in articles {
+                                print(article)
+                            }
                         } else {
                             print("Empty content")
                         }

@@ -23,6 +23,8 @@
 		E92B77CC203EBCFF00A32D0F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B77CB203EBCFF00A32D0F /* RequestManager.swift */; };
 		E92B77CE203EC33700A32D0F /* ArticleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B77CD203EC33700A32D0F /* ArticleRequest.swift */; };
 		E92B77D0203EC41E00A32D0F /* ArticleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B77CF203EC41E00A32D0F /* ArticleResponse.swift */; };
+		E9C6A2682059296E00E7DF5D /* Parsable+JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C6A2672059296E00E7DF5D /* Parsable+JsonDecoder.swift */; };
+		E9C6A26A20592CA800E7DF5D /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C6A26920592CA800E7DF5D /* JsonResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		E92B77CB203EBCFF00A32D0F /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		E92B77CD203EC33700A32D0F /* ArticleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequest.swift; sourceTree = "<group>"; };
 		E92B77CF203EC41E00A32D0F /* ArticleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleResponse.swift; sourceTree = "<group>"; };
+		E9C6A2672059296E00E7DF5D /* Parsable+JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parsable+JsonDecoder.swift"; sourceTree = "<group>"; };
+		E9C6A26920592CA800E7DF5D /* JsonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				E92B77BD203EAB3300A32D0F /* Request+Params.swift */,
 				E92B77C4203EACC300A32D0F /* Request+HeaderFields.swift */,
 				E92B77C6203EB31100A32D0F /* FetchResult.swift */,
+				E9C6A2672059296E00E7DF5D /* Parsable+JsonDecoder.swift */,
+				E9C6A26920592CA800E7DF5D /* JsonResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -219,9 +225,11 @@
 			files = (
 				E92B77A6203EA6E000A32D0F /* ViewController.swift in Sources */,
 				E92B77B8203EA81200A32D0F /* Request.swift in Sources */,
+				E9C6A2682059296E00E7DF5D /* Parsable+JsonDecoder.swift in Sources */,
 				E92B77C5203EACC300A32D0F /* Request+HeaderFields.swift in Sources */,
 				E92B77BA203EA99100A32D0F /* Client.swift in Sources */,
 				E92B77A4203EA6E000A32D0F /* AppDelegate.swift in Sources */,
+				E9C6A26A20592CA800E7DF5D /* JsonResponse.swift in Sources */,
 				E92B77C1203EAB8700A32D0F /* Encodable+DictionaryRepresentation.swift in Sources */,
 				E92B77C7203EB31100A32D0F /* FetchResult.swift in Sources */,
 				E92B77D0203EC41E00A32D0F /* ArticleResponse.swift in Sources */,

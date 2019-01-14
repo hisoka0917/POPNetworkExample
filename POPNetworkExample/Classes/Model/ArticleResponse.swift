@@ -21,20 +21,13 @@ struct ArticleModel: Codable {
     var who: String?
 }
 
-struct ArticleResponseModel: Codable {
+struct ArticleResponseModel: Codable, JsonResponseProtocol {
     var error: Bool?
-    var results: [ArticleModel]?
+    var results: [ResultsType]?
+
+    typealias ResultsType = ArticleModel
 }
 
 struct ArticleResponse: Parsable {
     typealias Result = ArticleResponseModel
-
-    static func parse(data: Data) throws -> ArticleResponseModel? {
-        do {
-            let responseJson = try JSONDecoder().decode(Result.self, from: data)
-            return responseJson
-        } catch {
-            throw ClientError.jsonParsingFailure
-        }
-    }
 }
